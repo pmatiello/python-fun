@@ -1,0 +1,10 @@
+1. Named and optional parameters
+2. Lambdas
+3. Decorators
+4. Generators
+5. __call__()
+6. __getitem__()
+7. __getattr__()
+8. Monkey patching
+9. High-order functions
+10. Map-Reduce
