@@ -5,7 +5,7 @@
 
 def factorial(n, acc=1):
     if (n == 1): return acc
-    return factorial(n-1, acc*n)
+    return factorial(n=n-1, acc=acc*n)
 
 
 print factorial(5)
