@@ -1,7 +1,7 @@
 1. Named and optional parameters [done]
 2. Lambdas [done]
-3. Decorators
-4. Generators
+3. Decorators [done]
+4. Generators [done]
 5. __call__()
 6. __getitem__()
 7. __getattr__()
