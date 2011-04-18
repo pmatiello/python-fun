@@ -7,14 +7,14 @@ class capture_exceptions():
         self.function = function
     
     def __call__(self, *args, **kwargs):
-        return self.function(*args, **kwargs)
+        try:
+            return self.function(*args, **kwargs)
+        except Exception as e:
+            return e
 
 @capture_exceptions
 def divide(dividend, divisor):
-    try:
-        return dividend / divisor
-    except Exception as e:
-        return e
+    return dividend / divisor
 
 print divide(10, 5)
 print divide(0, 0)
