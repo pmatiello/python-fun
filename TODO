@@ -2,7 +2,7 @@
 2. Lambdas [done]
 3. Decorators [done]
 4. Generators [done]
-5. __call__()
+5. __call__() [done]
 6. __getitem__()
 7. __getattr__()
 8. Monkey patching
