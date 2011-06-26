@@ -3,8 +3,7 @@
 3. Decorators [done]
 4. Generators [done]
 5. __call__() [done]
-6. __getitem__()
-7. __getattr__()
-8. Monkey patching
-9. High-order functions
-10. Map-Reduce
+6. __getitem__() []
+7. __getattr__() [done]
+8. High-order functions [done]
+9. Map-Reduce [done]
