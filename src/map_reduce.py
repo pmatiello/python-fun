@@ -12,8 +12,8 @@ def map_reduce2(iterable, map_func, reduce_func, init):
 	return reduce(reduce_func, [map_func(item) for item in iterable], init)
 
 def executar(map_reduce_func):
-	l = [[1,2,3,4], [2,3,4,5], [4,6,7]]
-	return map_reduce_func(l, lambda lista: [2 * x for x in lista if x % 2 == 0], lambda acc, lista: acc + sum(lista), 0)
+	l = [[1,2,3,4], [1,3,4,5], [1,6,7]]
+	return map_reduce_func(l, lambda lista: [2 * x for x in lista if x % 2 == 1], lambda acc, lista: acc + sum(lista), 0)
 
 print executar(map_reduce)
 print executar(map_reduce2)
